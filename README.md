@@ -11,6 +11,7 @@ hibernate <br/>
 logback <br/>
 maven <br/>
 junit <br/>
+<br/>
 
 **1-) Package spring boot application with dev profile to get detailed log during packaging**
 
