@@ -1,5 +1,15 @@
 # spring-boot-logback-profile-based-config
 
+### Tech Stack
+Java 11 <br/>
+H2 Database Engine <br/>
+spring boot <br/>
+spring data jpa <br/>
+hibernate <br/>
+logback <br/>
+maven <br/>
+junit <br/>
+
 **1-) Package spring boot application with dev profile to get detailed log during packaging**
 
 D:\DEV\spring-boot-logback-profile-based-config> **mvnw.cmd clean package -Dspring.profiles.active=dev**
