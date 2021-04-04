@@ -8,7 +8,7 @@ DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boo
 INFO  [main] org.springframework.boot.SpringApplication: The following profiles are active: dev<br/>
 [INFO] ------------------------------------------------------------------------<br/>
 [INFO] BUILD SUCCESS<br/>
-[INFO] ------------------------------------------------------------------------<br/>
+[INFO] ------------------------------------------------------------------------<br/><br/><br/>
 
 
 **2-) Run spring boot application with prod profile to get info level, limited log**
