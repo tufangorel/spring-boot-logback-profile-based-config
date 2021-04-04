@@ -1,5 +1,7 @@
 # spring-boot-logback-profile-based-config
 
+Execute test class in dev or prod profile to get different detail levels of log information for a spring boot application using logback.
+
 ### Tech Stack
 Java 11 <br/>
 H2 Database Engine <br/>
