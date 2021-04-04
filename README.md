@@ -1,6 +1,6 @@
 # spring-boot-logback-profile-based-config
 
-**1-) Run spring boot application with dev profile to get detailed log**
+**1-) Package spring boot application with dev profile to get detailed log during packaging**
 
 D:\DEV\spring-boot-logback-profile-based-config> **mvnw.cmd clean package -Dspring.profiles.active=dev**
 
@@ -11,7 +11,7 @@ INFO  [main] org.springframework.boot.SpringApplication: The following profiles 
 [INFO] ------------------------------------------------------------------------<br/><br/><br/>
 
 
-**2-) Run spring boot application with prod profile to get info level, limited log**
+**2-) Package spring boot application with prod profile to get info level, limited log during packaging**
 
 D:\DEV\spring-boot-logback-profile-based-config> **mvnw.cmd clean package -Dspring.profiles.active=prod**
 
