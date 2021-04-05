@@ -1,4 +1,4 @@
-# spring-boot-logback-profile-based-config
+## spring-boot-logback-profile-based-config
 
 Execute test class in dev or prod profile to get different detail levels of log information for a spring boot application using logback.
 
@@ -15,7 +15,10 @@ junit <br/>
 
 **1-) Package spring boot application with dev profile to get detailed log during packaging**
 
-D:\DEV\spring-boot-logback-profile-based-config> **mvnw.cmd clean package -Dspring.profiles.active=dev**
+[source,bash]
+----
+D:\DEV\spring-boot-logback-profile-based-config> mvnw.cmd clean package -Dspring.profiles.active=dev
+----
 
 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.4.4, Spring v5.3.5<br/>
 INFO  [main] org.springframework.boot.SpringApplication: The following profiles are active: dev<br/>
