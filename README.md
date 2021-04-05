@@ -13,10 +13,10 @@ maven <br/>
 junit <br/>
 <br/>
 
-**1-) Package spring boot application with dev profile to get detailed log during packaging**
-<pre>
+**´1-) Package spring boot application with dev profile to get detailed log during packaging´**
+
 D:\DEV\spring-boot-logback-profile-based-config> **mvnw.cmd clean package -Dspring.profiles.active=dev**
-</pre></br>
+
 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v2.4.4, Spring v5.3.5<br/>
 INFO  [main] org.springframework.boot.SpringApplication: The following profiles are active: dev<br/>
 [INFO] ------------------------------------------------------------------------<br/>
