@@ -13,7 +13,7 @@ maven <br/>
 junit <br/>
 <br/>
 
-**´1-) Package spring boot application with dev profile to get detailed log during packaging´**
+**1-) Package spring boot application with dev profile to get detailed log during packaging**
 
 D:\DEV\spring-boot-logback-profile-based-config> **mvnw.cmd clean package -Dspring.profiles.active=dev**
 
